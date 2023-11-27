@@ -4,9 +4,8 @@
   "description": "alexhuynh-dev",
   "main": "index.js",
   "scripts": {
-    
-    "buid:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "dev": "live-server public" 
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "dev": "live-server public"
   },
   "keywords": [],
   "author": "alexhuynh-dev",

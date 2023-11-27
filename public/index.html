@@ -3,15 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <title>Alex Huynh</title> 
+    <link href="./output.css" type="text/css" rel="stylesheet">
+    <title>Heathy-Food.</title> 
     
 </head>
 <body>
     <div id="root">
-        <div class="content-wrapper">
-            <header>
-                Menu
+        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
+            <header class="py-6 mx-10"> 
+                <nav class="flex flex-row justify-between items-center">
+                    <div class="logo basis-2/6 text-center text-xl font-mono cursor-pointer ">
+                        Heathy-Food.
+                    </div>
+                    <ul class="basis-3/6 flex items-center gap-8 uppercase text-sm text-gray-600 font-mono">
+                        <li class="cus-top-menu-item">
+                            <a href="#">Home</a>
+                        <!-- </li>  -->
+                        <li class="cus-top-menu-item">
+                            <a href="#">Our Product</a>
+                        </li>
+                        <li class="cus-top-menu-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="cus-top-menu-item">
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                    <ul class="basis-1/6 flex justify-start ml-16 uppercase text-sm text-gray-500 font-mono">
+                        <li class="cus-top-menu-item">
+                            <a href="#" class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="cus-icon">
+                                    <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+                                  </svg>
+                                  <span class="mx-2">Card</span>
+                                  <span class="cus-badge-circle">01</span>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </header>
             <main>
                 <div class="slider">
