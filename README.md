@@ -1,5 +1,5 @@
 # How to Run
 - Install yarn 
-- Use :
+# Use
 + yarn build:css
 + yarn run dev
