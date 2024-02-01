@@ -18,5 +18,5 @@
   @apply text-xs text-center rounded-full px-1.5 bg-green-600 text-white;
 }
 .alex-topmenu-expanded{
-  @apply absolute top-20 z-50 w-full text-center bg-gray-700 bg-opacity-25 animate-sideDown;
+  @apply absolute top-20 z-50 w-full text-center bg-white bg-opacity-50 animate-sideDown;
 }
