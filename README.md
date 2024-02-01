@@ -1,5 +1,6 @@
 # How to Run
-- Install yarn 
+- Install yarn
+- Install live-server
 # Use
 + yarn build:css
-+ yarn run dev
++ yarn start:dev
