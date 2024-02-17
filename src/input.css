@@ -24,10 +24,10 @@
   @apply flex justify-center items-center mb-24
 }
 .alex__subheadline-decor-label{
-  @apply uppercase mx-3 tracking-widest font-semibold text-gray-400 text-xs text-center ;
+  @apply uppercase mx-3 tracking-widest font-semibold text-gray-600 text-xs text-center;
 }
 .alex__subheadline-decor-line{
-  @apply w-8 h-px bg-gray-300;
+  @apply w-8 h-px bg-gray-200;
 }
 .alex__button{
   @apply text-center uppercase tracking-widest rounded-sm font-semibold py-4 px-8  cursor-pointer hover:bg-opacity-90;
