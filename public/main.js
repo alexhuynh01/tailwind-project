@@ -12,15 +12,4 @@ document.addEventListener("click", (e) => {
     topMenu.classList.add("hidden");
   }
 });
-window.onload = function () {
-  // Khôi phục vị trí cuộn từ sessionStorage, nếu có
-  var scrollPosition = sessionStorage.getItem("scrollPosition");
-  if (scrollPosition) {
-    window.scrollTo(0, scrollPosition);
-  }
-};
 
-window.onbeforeunload = function () {
-  // Lưu vị trí cuộn vào sessionStorage trước khi trang tải lại hoặc đóng
-  sessionStorage.setItem("scrollPosition", window.scrollY);
-};
