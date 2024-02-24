@@ -32,6 +32,9 @@
 .alex__button {
   @apply text-center uppercase tracking-widest rounded-sm font-semibold py-4 px-8  cursor-pointer hover:bg-opacity-95;
 }
+.alex__link{
+  @apply hover:text-green-700;
+}
 /* CSS */
 #root {
   height: 100vh;
