@@ -1,6 +1,14 @@
 # How to Run
-- Install yarn
-- Install live-server
+```
+yarn install
+```
 # Use
-+ yarn build:css
-+ yarn start:dev
+```
+yarn build:css
+```
+
+```
+yarn start:dev
+```
+# Preview 
++ https://healthy-food-web.web.app/
