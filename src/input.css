@@ -41,6 +41,7 @@
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
+  background-color: white;
   /* ... */
 }
 .alex__parallax,
@@ -52,7 +53,7 @@
   flex-direction: column;
 }
 .alex__parallax-active {
-  height: 40vh;
+  height: 30vh;
 }
 .alex__parallax {
   height: auto;
@@ -70,7 +71,7 @@
 }
 @media screen(xl) {
   .alex__parallax-active {
-    height: 70vh;
+    height: 60vh;
     transform-style: preserve-3d;
   }
   .alex__parallax-image {
